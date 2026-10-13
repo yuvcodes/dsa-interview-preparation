@@ -9,7 +9,7 @@ Return how many unique numbers are present.
 
 Time Complexity: O(n log n) - Adding numbers to the set takes time.
 Space Complexity: O(n) - The set stores the unique numbers.
-*/
+ */
 int brute_remove_duplicates(vector<int>& numbers) {
     set<int> uniqueNumbers;
 
